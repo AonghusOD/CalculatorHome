@@ -1,5 +1,5 @@
 package ie.gmit;
-// This method will add two numbers
+// This method will add two numbers agsain
 public class Calculator {
 
 
