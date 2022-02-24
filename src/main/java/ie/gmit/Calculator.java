@@ -1,12 +1,19 @@
 package ie.gmit;
 // This method will add two numbers agsain
 public class Calculator {
+    int firstNumber;
+    int secondNumber;
 
 
-    int add(int firstNum, int secondNum) {
-        int sum;
-        sum = firstNum + secondNum;
-        return sum;
+    public Calculator(int firstNumber, int secondNumber) {
+        this.firstNumber = firstNumber;
+        this.secondNumber  = secondNumber;
+    }
+
+
+    int add (){
+        int total = firstNumber + secondNumber;
+        return total;
     }
 
 
